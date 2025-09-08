@@ -26,21 +26,21 @@ Fixed issues with f-strings and non-ASCII characters.
 
 Added simulation logic for temperature sensors and PWM fan duty cycle.
 
-##*🔧 How the Simulation Works
-A fake temperature sensor generates random values between 20°C and 45°C.
+##*🔧 **How the Simulation Works**
+A fake temperature sensor generates random values between 20C and 45C.
 
 A control function maps the temperature to a fan duty cycle (20–100%).
 
 A Tkinter GUI displays real-time updates of temperature and fan duty.
 
-🛠️ Emulated Sensors & Devices
+##🛠️ **Emulated Sensors & Devices**
 Temperature Sensor → Simulated with random values.
 
 PWM Fan Motor → Represented by duty cycle calculations.
 
 Tkinter GUI → Acts as the fan controller interface.
 
-🌱 Future Improvements
+##🌱 **Future Improvements**
 Add graphs (temperature vs. duty cycle) using matplotlib.
 
 Add manual control buttons in Tkinter (e.g., turn fan ON/OFF).
@@ -50,3 +50,4 @@ Expand to use real hardware sensors (DS18B20, DHT22).
 Deploy on an actual Onion Omega / Raspberry Pi.
 
 
+<img width="1266" height="731" alt="Screenshot from 2025-09-08 10-50-56" src="https://github.com/user-attachments/assets/eedb582b-d72c-45d4-8109-e98cf84d85e6" />
